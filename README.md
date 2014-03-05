@@ -35,23 +35,23 @@ One way to accomplish this is by creating a new Mastercoin Smart Property (Trans
 
 Let's say that the address that created this mastercoin is 1KZmDQGzGJWYmPP9X3b7TA9d1234567890
 
--Property Category = "Authentication\0"
--Property Subcategory = "login.blockauth.com\0" (used to designate what OAUTH server to hit)
--Property Name = "UNASSIGNED-8ab28c77\0"
--Property URL = "UNASSIGNED-8ab28c77.blockauth.com\0"
--Property Data = "pd1,pd2,pd3+,pd4,pd5,ce1+,ce2,cd3,cp1+,cp2,cp5,\0"
--Number Properties = 7941
+- Property Category = "Authentication\0"
+- Property Subcategory = "login.blockauth.com\0" (used to designate what OAUTH server to hit)
+- Property Name = "UNASSIGNED-8ab28c77\0"
+- Property URL = "UNASSIGNED-8ab28c77.blockauth.com\0"
+- Property Data = "pd1,pd2,pd3+,pd4,pd5,ce1+,ce2,cd3,cp1+,cp2,cp5,\0"
+- Number Properties = 7941
 
 
 Once the smart property is created it'll be assigned a property ID (let's say it's 5481) by the mastercoin network, then a second transaction will occur to UPDATE the smart property to this:
 
 
--Property Category = "Authentication\0"
--Property Subcategory = "login.blockauth.com\0" (used to designate what OAUTH server to hit)
--Property Name = "5481\0"
--Property URL = "5481.blockauth.com\0"
--Property Data = "pd1,pd2,pd3+,pd4,pd5,ce1+,ce2,cd3,cp1+,cp2,cp5,\0"
--Number Properties = 7941
+- Property Category = "Authentication\0"
+- Property Subcategory = "login.blockauth.com\0" (used to designate what OAUTH server to hit)
+- Property Name = "5481\0"
+- Property URL = "5481.blockauth.com\0"
+- Property Data = "pd1,pd2,pd3+,pd4,pd5,ce1+,ce2,cd3,cp1+,cp2,cp5,\0"
+- Number Properties = 7941
 
 
 
